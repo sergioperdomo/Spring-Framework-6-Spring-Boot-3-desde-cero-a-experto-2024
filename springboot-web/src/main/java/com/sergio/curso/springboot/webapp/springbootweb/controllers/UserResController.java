@@ -32,9 +32,9 @@ public class UserResController {
     // Método de lista
     @GetMapping("/list")
     public List <User> list() {
-        User user = new User("Ana", "Francheska");
-        User user1 = new User("Tum", "Reng");
-        User user2 = new User("Renata", "Nuñez");
+        User user = new User("Ana", "Francheska", "ana-franch@gmail.com");
+        User user1 = new User("Tum", "Reng", "\"tum_reng12@gmail.com\"");
+        User user2 = new User("Renata", "Nuñez", "renat3a-nun@gmail.com");
 
         List<User> users = new ArrayList<>();
         users.add(user);
@@ -48,7 +48,7 @@ public class UserResController {
 
     @GetMapping("/details-map")
     public Map<String, Object> detailsMap() {
-        User user = new User("Sergio", "Fede");
+        User user = new User("Sergio", "Fede", "sergio-fede@gmail.com");
         Map<String, Object> body = new HashMap<>();
         body.put("title", "Hola Mundo SpringBoot");
         body.put("user", user);
