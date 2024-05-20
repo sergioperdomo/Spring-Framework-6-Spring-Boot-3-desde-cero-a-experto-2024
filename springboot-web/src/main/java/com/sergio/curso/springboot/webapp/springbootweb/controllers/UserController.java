@@ -13,6 +13,7 @@ public class UserController {
     public String details(Model model) {
         // Haciendo uso de nuestra clase User.java
         User user = new User("Sergio Andres", "Perdomo Ortiz");
+        user.setEmail("perdomoortizsegio@gmail.com");
         // Pasandole datos a la vista
         model.addAttribute("title", "Hola Mundo SpringBoot");
         model.addAttribute("user", user);
