@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 import com.sergio.curso.springboot.webapp.springbootweb.models.User;
 // import org.springframework.web.bind.annotation.RequestParam;
@@ -40,6 +41,14 @@ public class UserController {
         return "list";
     }
     
+    // @ModelAttribute("users")
+    // public List<User> usersModel (){
+    //     return Arrays.asList(
+    //         new User("Sergio", "Perdomo", "sergioperdomo00@gmail.com"),
+    //         new User("Andres", "Ortiz", "andresortiz@gmail.com"),
+    //         new User("Fede", "Charry", "Fede_charry@gmail.com"),
+    //         new User("Andrew", "Ordoñez", "andre-ordoñez@gmail.com"));
+    // }
     
 
 }
