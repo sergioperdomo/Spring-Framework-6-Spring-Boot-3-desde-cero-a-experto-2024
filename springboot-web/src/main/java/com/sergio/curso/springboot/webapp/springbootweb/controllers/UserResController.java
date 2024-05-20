@@ -20,7 +20,7 @@ public class UserResController {
     @GetMapping("/details")
     public UserDto details() {
         // Haciendo uso de nuestra clase User.java
-        User user = new User("Sergio Andres", "Perdomo Ortiz");
+        User user = new User("Sergio Andres", "Perdomo Ortiz", "perdomoortizsergio@gmail.com");
         UserDto userDto = new UserDto();
         userDto.setUser(user);
         userDto.setTittle("Hello World");
