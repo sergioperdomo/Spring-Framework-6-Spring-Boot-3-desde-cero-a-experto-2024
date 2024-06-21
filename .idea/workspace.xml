@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Cambio.">
+    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Cambios">
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/values.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/SpringbootWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/SpringbootWebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +141,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718984866167</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Personalizando variables para posteriormente usarlas">
+      <option name="closed" value="true" />
+      <created>1718987747051</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718987747051</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Inyectando valores usando la anotación @Value">
+      <option name="closed" value="true" />
+      <created>1718987788541</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718987788541</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1718987805206</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718987805206</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +187,9 @@
     <MESSAGE value="Cambios." />
     <MESSAGE value="Enviando datos por medio del método POST." />
     <MESSAGE value="Cambio." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio." />
+    <MESSAGE value="Personalizando variables para posteriormente usarlas" />
+    <MESSAGE value="Inyectando valores usando la anotación @Value" />
+    <MESSAGE value="Cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>
 </project>
