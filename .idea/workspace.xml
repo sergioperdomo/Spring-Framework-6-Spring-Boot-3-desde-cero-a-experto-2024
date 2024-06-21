@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="">
+    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Cambios.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/models/dto/ParamDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/models/dto/ParamDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +75,74 @@
       <option name="presentableId" value="Default" />
       <updated>1715827240724</updated>
     </task>
+    <task id="LOCAL-00001" summary="Borrando espacios innecesarios.">
+      <option name="closed" value="true" />
+      <created>1718981789909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718981789909</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Obteniendo por medio del método GET y a través de parametros información que ingresa el usuario.">
+      <option name="closed" value="true" />
+      <created>1718981858181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718981858181</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Puse como comentario esa línea de código en especifico.">
+      <option name="closed" value="true" />
+      <created>1718981899910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718981899910</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Borrando dependencias innecesarias.">
+      <option name="closed" value="true" />
+      <created>1718981986702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718981986702</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cambios.">
+      <option name="closed" value="true" />
+      <created>1718982003831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718982003831</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cambios.">
+      <option name="closed" value="true" />
+      <created>1718982014920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718982014920</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Borrando espacios innecesarios." />
+    <MESSAGE value="Obteniendo por medio del método GET y a través de parametros información que ingresa el usuario." />
+    <MESSAGE value="Puse como comentario esa línea de código en especifico." />
+    <MESSAGE value="Borrando dependencias innecesarias." />
+    <MESSAGE value="Cambios." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios." />
   </component>
 </project>
