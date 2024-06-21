@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Cambios">
-      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/values.properties" afterDir="false" />
+    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Creando un nuevo archivo properties con el nombre de values.properties">
+      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/ValuesConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/SpringbootWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/SpringbootWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/resources/values.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/values.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,7 +172,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718987805206</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Creando un nuevo archivo properties con el nombre de values">
+      <option name="closed" value="true" />
+      <created>1718988197601</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718988197601</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Especificando que se creo ese fichero de values.properties">
+      <option name="closed" value="true" />
+      <created>1718988232343</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718988232343</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Creando un nuevo archivo properties con el nombre de values.properties">
+      <option name="closed" value="true" />
+      <created>1718988250542</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718988250542</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +221,9 @@
     <MESSAGE value="Personalizando variables para posteriormente usarlas" />
     <MESSAGE value="Inyectando valores usando la anotación @Value" />
     <MESSAGE value="Cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
+    <MESSAGE value="Creando un nuevo archivo properties con el nombre de values" />
+    <MESSAGE value="Especificando que se creo ese fichero de values.properties" />
+    <MESSAGE value="Creando un nuevo archivo properties con el nombre de values.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando un nuevo archivo properties con el nombre de values.properties" />
   </component>
 </project>
