@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Cambios.">
+    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Cambio.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718982014920</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Enviando datos por medio del método POST.">
+      <option name="closed" value="true" />
+      <created>1718984851849</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718984851849</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cambio.">
+      <option name="closed" value="true" />
+      <created>1718984866167</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718984866167</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +160,8 @@
     <MESSAGE value="Puse como comentario esa línea de código en especifico." />
     <MESSAGE value="Borrando dependencias innecesarias." />
     <MESSAGE value="Cambios." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios." />
+    <MESSAGE value="Enviando datos por medio del método POST." />
+    <MESSAGE value="Cambio." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio." />
   </component>
 </project>
