@@ -17,7 +17,7 @@ public class PathVariableController {
 
     // Inyectando valores como atributos.
 
-    @Value("${config.username}")
+    @Value("${config.username}") // Es una forma de inyectar.
     private String username;
 
     //@Value("${config.code}")
@@ -34,6 +34,9 @@ public class PathVariableController {
 
     @Value("#{'${config.listOfValues}'.toUpperCase().split(',')}") // Convirtiendolo a una lista separandolo por comas de forma manual
     private List<String> valueList;
+
+    @Value("#{${configure.valuesMap}}")
+    private Map<String,Object> valuesMap;
 
     @GetMapping("/baz/{message}") // Ruta path variable
     public ParamDto baz(@PathVariable() String message){
@@ -70,6 +73,7 @@ public class PathVariableController {
         json.put("listaDeValores", listOfValues);
         json.put("listaDeValoresManual", valueList);
         json.put("valueString",valueString);
+        json.put("valuesMap", valuesMap);
         return json;
     }
 }
