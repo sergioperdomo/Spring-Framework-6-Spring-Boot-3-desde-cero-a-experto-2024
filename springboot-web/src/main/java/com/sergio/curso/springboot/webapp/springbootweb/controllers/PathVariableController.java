@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import com.sergio.curso.springboot.webapp.springbootweb.models.dto.ParamDto;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 
@@ -26,7 +27,13 @@ public class PathVariableController {
     private String message;
 
     @Value("${config.listOfValues}")
-    private String[] listOfValues;
+    private List<String> listOfValues;
+
+    @Value("#{'${config.listOfValues}'.toUpperCase()}")
+    private String valueString;
+
+    @Value("#{'${config.listOfValues}'.toUpperCase().split(',')}") // Convirtiendolo a una lista separandolo por comas de forma manual
+    private List<String> valueList;
 
     @GetMapping("/baz/{message}") // Ruta path variable
     public ParamDto baz(@PathVariable() String message){
@@ -61,6 +68,8 @@ public class PathVariableController {
         json.put("phone", code);
         json.put("message", message);
         json.put("listaDeValores", listOfValues);
+        json.put("listaDeValoresManual", valueList);
+        json.put("valueString",valueString);
         return json;
     }
 }
