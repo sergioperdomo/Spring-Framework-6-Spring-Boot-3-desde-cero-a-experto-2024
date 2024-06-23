@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Inyectamos las propiedades que tenemos en el fichero values.properties por medio del @Value y creamos una variable de tipo Map&lt;String, Object&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" afterDir="false" />
-    </list>
+    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Cambios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,7 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719110764699</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Haciendo uso del @Autowired que nos permite inyectar o hacer uso de componentes que ya se encuentran previamente establecidos en el proyecto.&#10;&#10;Convertimos datos de tipo String a tipo Long">
+      <option name="closed" value="true" />
+      <created>1719114475802</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719114475802</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1719114490538</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719114490538</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,10 +326,11 @@
     <MESSAGE value="Cambio." />
     <MESSAGE value="Enlazando el fichero que se encuentra con las propiedades en esta nueva clase." />
     <MESSAGE value="Cambiandole algunas letras por caracteres especiales" />
-    <MESSAGE value="Cambios" />
     <MESSAGE value="Convirtiendo por medio del @Value() los valores que tenemos en el fichero values.properties y convertirnlos ya sea en String o en listas en donde también podemos hacer uso de diferentes métodos o funciones del lenguaje." />
     <MESSAGE value="Creamos un Objeto básicamente un JSON," />
     <MESSAGE value="Inyectamos las propiedades que tenemos en el fichero values.properties por medio del @Value y creamos una variable de tipo Map&lt;String, Object&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inyectamos las propiedades que tenemos en el fichero values.properties por medio del @Value y creamos una variable de tipo Map&lt;String, Object&gt;" />
+    <MESSAGE value="Haciendo uso del @Autowired que nos permite inyectar o hacer uso de componentes que ya se encuentran previamente establecidos en el proyecto.&#10;&#10;Convertimos datos de tipo String a tipo Long" />
+    <MESSAGE value="Cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>
 </project>
