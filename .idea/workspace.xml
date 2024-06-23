@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Creando un nuevo archivo properties con el nombre de values.properties">
-      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/ValuesConfig.java" afterDir="false" />
+    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Enlazando el fichero que se encuentra con las propiedades en esta nueva clase.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/SpringbootWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/SpringbootWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/ValuesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/ValuesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-web/src/main/resources/values.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/values.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +45,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SpringbootWebApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/natha/OneDrive - SENA/Sergio Andres Perdomo Ortiz/Sergio Andres/Spring-Framework-6-Spring-Boot-3-desde-cero-a-experto-2024"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringbootWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/natha/OneDrive - SENA/Sergio Andres Perdomo Ortiz/Sergio Andres/Spring-Framework-6-Spring-Boot-3-desde-cero-a-experto-2024&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="SpringbootWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sergio.curso.springboot.webapp.springbootweb.SpringbootWebApplication" />
@@ -196,7 +196,39 @@
       <option name="project" value="LOCAL" />
       <updated>1718988250542</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Añadiendole el fichero en donde tenemos las propiedades que creamos de manera personalizada">
+      <option name="closed" value="true" />
+      <created>1718988889084</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718988889084</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Cambios en el fichero que se creo con el objetivo de personalizar nuestra propiedades">
+      <option name="closed" value="true" />
+      <created>1718988920796</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718988920796</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Cambio.">
+      <option name="closed" value="true" />
+      <created>1718988931778</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718988931778</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Enlazando el fichero que se encuentra con las propiedades en esta nueva clase.">
+      <option name="closed" value="true" />
+      <created>1718988969338</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718988969338</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,13 +249,16 @@
     <MESSAGE value="Borrando dependencias innecesarias." />
     <MESSAGE value="Cambios." />
     <MESSAGE value="Enviando datos por medio del método POST." />
-    <MESSAGE value="Cambio." />
     <MESSAGE value="Personalizando variables para posteriormente usarlas" />
     <MESSAGE value="Inyectando valores usando la anotación @Value" />
     <MESSAGE value="Cambios" />
     <MESSAGE value="Creando un nuevo archivo properties con el nombre de values" />
     <MESSAGE value="Especificando que se creo ese fichero de values.properties" />
     <MESSAGE value="Creando un nuevo archivo properties con el nombre de values.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando un nuevo archivo properties con el nombre de values.properties" />
+    <MESSAGE value="Añadiendole el fichero en donde tenemos las propiedades que creamos de manera personalizada" />
+    <MESSAGE value="Cambios en el fichero que se creo con el objetivo de personalizar nuestra propiedades" />
+    <MESSAGE value="Cambio." />
+    <MESSAGE value="Enlazando el fichero que se encuentra con las propiedades en esta nueva clase." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enlazando el fichero que se encuentra con las propiedades en esta nueva clase." />
   </component>
 </project>
