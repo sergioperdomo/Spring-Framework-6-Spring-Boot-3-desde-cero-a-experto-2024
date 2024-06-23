@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Enlazando el fichero que se encuentra con las propiedades en esta nueva clase.">
+    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Inyectamos las propiedades que tenemos en el fichero values.properties por medio del @Value y creamos una variable de tipo Map&lt;String, Object&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/ValuesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/ValuesConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/java/com/sergio/curso/springboot/webapp/springbootweb/controllers/PathVariableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/resources/values.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/values.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +226,63 @@
       <option name="project" value="LOCAL" />
       <updated>1718988969338</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1719109897958</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719109897958</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Cambiandole algunas letras por caracteres especiales">
+      <option name="closed" value="true" />
+      <created>1719109920195</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719109920195</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1719109937375</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719109937375</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Convirtiendo por medio del @Value() los valores que tenemos en el fichero values.properties y convertirnlos ya sea en String o en listas en donde también podemos hacer uso de diferentes métodos o funciones del lenguaje.">
+      <option name="closed" value="true" />
+      <created>1719110054207</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719110054207</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Creamos un Objeto básicamente un JSON,">
+      <option name="closed" value="true" />
+      <created>1719110268513</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719110268513</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Creamos un Objeto básicamente un JSON,">
+      <option name="closed" value="true" />
+      <created>1719110690581</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719110690581</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Inyectamos las propiedades que tenemos en el fichero values.properties por medio del @Value y creamos una variable de tipo Map&lt;String, Object&gt;">
+      <option name="closed" value="true" />
+      <created>1719110764699</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719110764699</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +305,6 @@
     <MESSAGE value="Enviando datos por medio del método POST." />
     <MESSAGE value="Personalizando variables para posteriormente usarlas" />
     <MESSAGE value="Inyectando valores usando la anotación @Value" />
-    <MESSAGE value="Cambios" />
     <MESSAGE value="Creando un nuevo archivo properties con el nombre de values" />
     <MESSAGE value="Especificando que se creo ese fichero de values.properties" />
     <MESSAGE value="Creando un nuevo archivo properties con el nombre de values.properties" />
@@ -259,6 +312,11 @@
     <MESSAGE value="Cambios en el fichero que se creo con el objetivo de personalizar nuestra propiedades" />
     <MESSAGE value="Cambio." />
     <MESSAGE value="Enlazando el fichero que se encuentra con las propiedades en esta nueva clase." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enlazando el fichero que se encuentra con las propiedades en esta nueva clase." />
+    <MESSAGE value="Cambiandole algunas letras por caracteres especiales" />
+    <MESSAGE value="Cambios" />
+    <MESSAGE value="Convirtiendo por medio del @Value() los valores que tenemos en el fichero values.properties y convertirnlos ya sea en String o en listas en donde también podemos hacer uso de diferentes métodos o funciones del lenguaje." />
+    <MESSAGE value="Creamos un Objeto básicamente un JSON," />
+    <MESSAGE value="Inyectamos las propiedades que tenemos en el fichero values.properties por medio del @Value y creamos una variable de tipo Map&lt;String, Object&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inyectamos las propiedades que tenemos en el fichero values.properties por medio del @Value y creamos una variable de tipo Map&lt;String, Object&gt;" />
   </component>
 </project>
