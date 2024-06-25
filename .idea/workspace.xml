@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Uso de redirect y forward, que nos permite poner la ruta por medio de una url donde queremos redirigirnos, en el caso de redirect nos muestra esa url, en cambio en forward no.">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_web_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5dedabf3-6fcd-4ee9-8ad5-24ce792806f5" name="Changes" comment="Cambios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-web/src/main/resources/templates/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-web/src/main/resources/templates/details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SpringbootWebApplication.executor": "Run",
-    "JUnit.All in springboot-web.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/natha/OneDrive - SENA/Sergio Andres Perdomo Ortiz/Sergio Andres/Spring-Framework-6-Spring-Boot-3-desde-cero-a-experto-2024",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringbootWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in springboot-web.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/natha/OneDrive - SENA/Sergio Andres Perdomo Ortiz/Sergio Andres/Spring-Framework-6-Spring-Boot-3-desde-cero-a-experto-2024&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.All in springboot-web">
+}</component>
+  <component name="RunManager" selected="Application.SpringbootWebApplication">
     <configuration name="SpringbootWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sergio.curso.springboot.webapp.springbootweb.SpringbootWebApplication" />
       <module name="springboot-web" />
@@ -89,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in springboot-web" />
         <item itemvalue="Application.SpringbootWebApplication" />
+        <item itemvalue="JUnit.All in springboot-web" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719182251357</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Cambios">
+      <option name="closed" value="true" />
+      <created>1719241086852</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719241086852</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,8 +392,8 @@
     <MESSAGE value="Creamos un Objeto básicamente un JSON," />
     <MESSAGE value="Inyectamos las propiedades que tenemos en el fichero values.properties por medio del @Value y creamos una variable de tipo Map&lt;String, Object&gt;" />
     <MESSAGE value="Haciendo uso del @Autowired que nos permite inyectar o hacer uso de componentes que ya se encuentran previamente establecidos en el proyecto.&#10;&#10;Convertimos datos de tipo String a tipo Long" />
-    <MESSAGE value="Cambios" />
     <MESSAGE value="Uso de redirect y forward, que nos permite poner la ruta por medio de una url donde queremos redirigirnos, en el caso de redirect nos muestra esa url, en cambio en forward no." />
-    <option name="LAST_COMMIT_MESSAGE" value="Uso de redirect y forward, que nos permite poner la ruta por medio de una url donde queremos redirigirnos, en el caso de redirect nos muestra esa url, en cambio en forward no." />
+    <MESSAGE value="Cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios" />
   </component>
 </project>
